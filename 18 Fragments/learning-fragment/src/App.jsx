@@ -1,24 +1,15 @@
-import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import FoodList from './components/Map';
-import Condi from './components/Condi';
+import FoodItems from './components/FoodItems';
+//import ErrorMessage from './components/ErrorMessage';
 
 function App() {
-
-  return(
+  return (
     <div>
       <h1>Healthy Food</h1>
-      <ul className="list-group">
-  <li className="list-group-item">An item</li>
-  <li className="list-group-item">A second item</li>
-  <li className="list-group-item">A third item</li>
-  <li className="list-group-item">A fourth item</li>
-  <li className="list-group-item">And a fifth one</li>
-</ul>
-  <FoodList></FoodList>
-  <Condi></Condi>
+      <FoodItems />
+      
     </div>
-  )
+  ); 
 }
 
-export default App
+export default App;
