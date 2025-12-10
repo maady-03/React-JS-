@@ -1,13 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import Item from "./Item";
 
-const FoodItems = () => {
-  const foodItems = ["roti", "sabji"];
-
+const FoodItems = ({ items }) => {
   return (
     <ul className="list-group">
-      {foodItems.map((item, index) => (
-        <Item foodItem={item}></Item>
+      {items.map((item) => (
+        <Item key={item} foodItem={item} />
       ))}
     </ul>
   );
