@@ -1,0 +1,12 @@
+.welcome {
+  margin-top: 40px;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #198754; /* Bootstrap success green */
+  background-color: #f1fdf6;
+  border: 2px dashed #198754;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+}
